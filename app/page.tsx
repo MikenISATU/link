@@ -1,5 +1,6 @@
 'use client'
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
@@ -15,13 +16,13 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50 text-black font-['SF Pro Display', system-ui, -apple-system, sans-serif]">
+    <div className="flex flex-col min-h-screen bg-gray-50 text-black font-sf-pro">
       {/* Header Navigation */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-b border-gray-100">
         <nav className="flex items-center justify-between px-4 sm:px-12 lg:px-24 py-4 sm:py-5">
-          <a href="/" className="text-xl sm:text-2xl font-medium tracking-tight">
+          <Link href="/" className="text-xl sm:text-2xl font-medium tracking-tight">
             NFC Studio
-          </a>
+          </Link>
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-6 lg:gap-10">
             <a
