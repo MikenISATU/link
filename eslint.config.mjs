@@ -13,4 +13,7 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
 ];
 
+font-['SF Pro Display', system-ui, -apple-system, sans-serif]
+
+
 export default eslintConfig;
