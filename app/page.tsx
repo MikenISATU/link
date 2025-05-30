@@ -266,7 +266,7 @@ export default function Home() {
               href="/layout"
               className="rounded-full bg-black text-white px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-medium hover:bg-gray-800 transition-all duration-300 ease-out hover:scale-105 active:scale-95"
             >
-              Try Editor
+              Try Editor1
             </Link>
           </div>
           <div className="w-full lg:w-1/2 flex justify-center">
