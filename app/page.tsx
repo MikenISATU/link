@@ -123,12 +123,12 @@ export default function Home() {
           <p className="text-sm sm:text-xl lg:text-2xl text-gray-500 max-w-md leading-relaxed">
             Craft a unique NFC card with custom colors, elements, and names. Tap to connect instantly.
           </p>
-          <a
+          <Link
+            href="/layout"
             className="rounded-full bg-black text-white px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-medium hover:bg-gray-800 transition-all duration-300 ease-out hover:scale-105 active:scale-95"
-            href="#nfc-customize"
           >
             Start Customizing
-          </a>
+          </Link>
         </div>
 
         {/* Right Cards */}
@@ -262,12 +262,12 @@ export default function Home() {
             <p className="text-xs sm:text-sm lg:text-lg text-gray-500 max-w-md leading-relaxed">
               Use our intuitive editor to choose your card's color, add unique elements, and engrave your name or brand. Preview your design in real-time.
             </p>
-            <a
+            <Link
+              href="/layout"
               className="rounded-full bg-black text-white px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-medium hover:bg-gray-800 transition-all duration-300 ease-out hover:scale-105 active:scale-95"
-              href="#nfc-customize"
             >
               Try Editor
-            </a>
+            </Link>
           </div>
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="w-64 sm:w-80 lg:w-96 h-[18rem] sm:h-[24rem] lg:h-[28rem] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-center animate-fade">
